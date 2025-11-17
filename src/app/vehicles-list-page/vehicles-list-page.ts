@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { VehiclesResponse } from '../services/vehicles.service'; 
+import {Vehicle} from '../services/vehicles.service'; 
 
 
 @Component({
@@ -10,6 +11,6 @@ import { VehiclesResponse } from '../services/vehicles.service';
 })
 export class VehiclesListPage {
 vehicles = [
-    
+  
   ];
 }
